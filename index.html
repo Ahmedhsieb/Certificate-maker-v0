@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7f2c6c7477.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form/style/style%203.css">
+    <title>Certificate Form</title>
+</head>
+<body>
+<main>
+    <section>
+        <div class="rightside">
+            <div class="reg">
+                <h2>Certificate info</h2>
+                <form method="post" action="form/generate_certificate.php" enctype="multipart/form-data">
+                    <input type="text" class="email" name="student_name" placeholder="Enter Name Here">
+                    <input type="text" class="email" name="course_name" placeholder="Enter Course Here">
+                    <input type="file" class="email" name="student_image">
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
